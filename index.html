@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Portfolio</title>
+</head>
+<style>
+    h1 {
+        color: cornsilk;
+    }
+    
+    p {
+        color: black;
+    }
+    
+    p {
+        font-style: normal;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background-color: cyan;
+    }
+    
+    button {
+        color: darkgrey;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>My Project Portfolio</h1>
+    </header>
+    <main>
+        <div class="project">
+            <img src="photo_5949596626832179971_x.jpg" alt="JAMES ADALA FULL STACK SOFTWARE DEVELOPER" width="350" height="350" />
+
+            <p>
+                "Welcome to my portfolio! I'm a versatile creative professional with a passion for both graphic design and software development. With a keen eye for aesthetics and a knack for coding, I specialize in crafting visually stunning designs and bringing them
+                to life through innovative digital solutions. Explore my portfolio to see how I blend creativity and technical expertise to deliver engaging user experiences across various platforms. Let's collaborate and turn your ideas into reality!"
+            </p>
+            <button class="button-link" onclick="openGraphicDesignFolder()">
+          Graphic Design Projects
+        </button>
+
+            <script>
+                function openGraphicDesignFolder() {
+                    const folderPath = "\graphic design projects";
+                    window.location.href = folderPath;
+                }
+            </script>
+</body>
+
+</html>
